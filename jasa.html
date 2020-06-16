@@ -1,17 +1,16 @@
 ---
 title: Team
 layout: default
-bodyClass: page-team-list
+bodyClass: page-testimonials-list
 ---
 
 <div class="intro">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1>Meet The Team</h1>
+        <h1>Jasa pondasi</h1>
         <p>
-          Our team of qualified accountants and financial consultants can help
-          your business at any stage of it's growth.
+          Kami juga melayani beberapa jasa yang tentunya masih berkutat diseputar IT.
         </p>
       </div>
     </div>
@@ -20,26 +19,25 @@ bodyClass: page-team-list
 
 <div class="container pb-6">
   <div class="row">
-    {% for team in site.team %}
-    <div class="col-12 col-md-6 mb-1">
-      <div class="team team-summary">
-        {% if team.image %}
-        <div class="team-image">
-          <img
-            alt="{{ team.title }} logo"
-            class="img-fluid mb-2"
-            src="{{site.baseurl}}{{ team.image }}"
-          />
+    &nbsp;
+  </div>
+</div>
+<div class="container pb-6">
+  <div class="row">
+    &nbsp;
+  </div>
+</div>
+
+<div class="container pb-6">
+  <div class="row">
+    {% for service in site.services %}
+    <div class="col-12 col-md-6 mb-2 ">
+      <div class="testimonials testimonials-summary">
+        <div class="testimonials-meta">
+          <h2 class="testimonials-title"><a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a></h2>
+          <p class="testimonials-name">{{ service.subtitle }}</p>
         </div>
-        {% endif %}
-        <div class="team-meta">
-          <h2 class="team-name">{{ team.title }}</h2>
-          <p class="team-description">{{ team.jobtitle }}</p>
-          {% if team.linkedinurl %}
-          <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a> 
-          {% endif %}
-        </div>
-        <div class="team-content">{{ team.content }}</div>
+        <div class="testimonials-content">{{ service.content | markdownify | strip_html | truncate: 500 }}</div>
       </div>
     </div>
     {% endfor %}
