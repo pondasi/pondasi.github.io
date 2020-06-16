@@ -1,14 +1,14 @@
 ---
 title: Diskusi
 layout: default
-bodyClass: page-services-list
+bodyClass: page-team-list
 ---
 
 <div class="intro">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1>Testimonials</h1>
+        <h1>Mari diskusi</h1>
       </div>
     </div>
   </div>
@@ -16,15 +16,36 @@ bodyClass: page-services-list
 
 <div class="container pb-6">
   <div class="row">
-    {% for testimonial in site.testimonials %}
+    &nbsp;
+  </div>
+</div>
+<div class="container pb-6">
+  <div class="row">
+    &nbsp;
+  </div>
+</div>
+<div class="container pb-6">
+  <div class="row">
+    &nbsp;
+  </div>
+</div>
+<div class="container pb-6">
+  <div class="row">
+    &nbsp;
+  </div>
+</div>
+
+<div class="container pb-6">
+  <div class="row">
+    {% for service in site.services %}
     <div class="col-12 col-md-6 mb-2 ">
       <div class="testimonials testimonials-summary">
         <div class="testimonials-meta">
-          <h2 class="testimonials-title">{{ testimonial.title }}</h2>
-          <p class="testimonials-name">{{ testimonial.name }}</p>
-          <p class="testimonials-jobtitle">{{ testimonial.jobtitle }}</p>
+          <h2 class="testimonials-title">{{ service.title }}</h2>
+          <p class="testimonials-name">{{ service.title }}</p>
+          <p class="testimonials-jobtitle">{{ service.title }}</p>
         </div>
-        <div class="testimonials-content">{{ testimonial.content }}</div>
+        <div class="testimonials-content">{{ service.content | markdownify | strip_html | truncate: 500 }}</div>
       </div>
     </div>
     {% endfor %}
