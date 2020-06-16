@@ -2,6 +2,7 @@
 title: 'Danang Tri Atmaja'
 image: '/images/team/peter-van-eijk-711986-unsplash.jpg'
 jobtitle: '------'
+phone: '+6281386215006'
 email: 'hubungi.aja@gmail.com'
 linkedinurl: 'https://www.linkedin.com/in/danangtriatmaja'
 instagram: 'https://instagram.com/danangtriatmaja_'

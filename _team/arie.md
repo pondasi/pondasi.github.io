@@ -2,6 +2,7 @@
 title: 'Arie Kurniawan'
 image: '/images/team/peter-van-eijk-711986-unsplash.jpg'
 jobtitle: '------'
+phone: '+6281290666605'
 email: 'hubungi.aja@gmail.com'
 linkedinurl: 'https://www.linkedin.com/in/arkwrn'
 instagram: 'https://instagram.com/13_minerale'

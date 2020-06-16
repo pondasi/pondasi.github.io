@@ -2,6 +2,7 @@
 title: 'M. Nur Arifin'
 image: '/images/team/peter-van-eijk-711986-unsplash.jpg'
 jobtitle: '------'
+phone: '+6283893664907'
 email: 'contact.arifin@gmail.com'
 linkedinurl: 'https://www.linkedin.com/in/muhamadarifin/'
 instagram: 'https://instagram.com/nurarif_in'

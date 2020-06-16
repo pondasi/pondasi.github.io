@@ -23,24 +23,7 @@ bodyClass: page-contact
         <li><strong>Address: </strong>{{ site.data.contact.address }}</li>
         {% endif %}
       </ul>
-      <h4 class="mt-4">Kontak penghubung</h4>
-      <table class="table table-sm opening-hours-table">
-        <tr>
-          <td class="day font-weight-bold">Arie (<a href="https://instagram.com/13_minerale">@13_minerale</a>)</td>
-          <td>-</td>
-          <td class="opens"><a href="tel:+6281290666605">+62 812-9066-6605</a></td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Arifin (<a href="https://instagram.com/nurarif_in">@nurarif_in</a>)</td>
-          <td>-</td>
-          <td class="opens"><a href="tel:+6283893664907">+62 838-9366-4907</a></td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Danang (<a href="https://instagram.com/danangtriatmaja_">@danangtriatmaja_</a>)</td>
-          <td>-</td>
-          <td class="opens"><a href="tel:+6281386215006">+62 813-8621-5006</a></td>
-        </tr>
-      </table>
+      <div style="margin-top: 5%; margin-bottom: 5%;">&nbsp;</div>
       <div class="container pb-6">
         <div class="row">
           {% for team in site.team %}
@@ -59,7 +42,11 @@ bodyClass: page-contact
                 <h2 class="team-name">{{ team.title }}</h2>
                 <p class="team-description">{{ team.jobtitle }}</p>
                 {% if team.linkedinurl %}
-                <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a> 
+                <a target="_blank" href="tel:{{ team.phone }}">Phone</a>
+                 | 
+                <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
+                 | 
+                <a target="_blank" href="{{ team.instagram }}">Instagram</a>
                 {% endif %}
               </div>
               <div class="team-content">{{ team.content }}</div>
