@@ -1,6 +1,6 @@
 ---
 title: 'Arie Kurniawan'
-image: '/images/team/peter-van-eijk-711986-unsplash.jpg'
+image: '/images/team/arie.jpeg'
 jobtitle: '------'
 phone: '+6281290666605'
 email: 'hubungi.aja@gmail.com'
