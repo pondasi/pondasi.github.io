@@ -1,6 +1,6 @@
 # PONDASI WEBPAGE
 
-https://pondasi.id
+https://pondasi.in
 
 Social media : https://s.id/pondasi <- Slack
 
