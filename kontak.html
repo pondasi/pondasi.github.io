@@ -25,8 +25,8 @@ bodyClass: page-services-list
       </ul>
       <div style="margin-top: 10%; margin-bottom: 10%;">&nbsp;</div>
       <div class="container pb-6">
+        {% for team in site.team %}
         <div class="row">
-          {% for team in site.team %}
           <div class="col-12 col-md-6 mb-1">
             <div class="team team-summary">
               {% if team.image %}
@@ -49,11 +49,11 @@ bodyClass: page-services-list
                 <a target="_blank" href="{{ team.instagram }}">Instagram</a>
                 {% endif %}
               </div>
-              <div class="team-content">{{ team.content }}</div>
+              <!-- <div class="team-content">{{ team.content }}</div> -->
             </div>
           </div>
-          {% endfor %}
         </div>
+        {% endfor %}
       </div>
     </div>
   </div>
