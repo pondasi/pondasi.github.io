@@ -41,7 +41,7 @@ bodyClass: page-team-list
     <div class="col-12 col-md-6 mb-2 ">
       <div class="testimonials testimonials-summary">
         <div class="testimonials-meta">
-          <h2 class="testimonials-title">{{ service.title }}</h2>
+          <h2 class="testimonials-title"><a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a></h2>
           <p class="testimonials-name">{{ service.subtitle }}</p>
         </div>
         <div class="testimonials-content">{{ service.content | markdownify | strip_html | truncate: 500 }}</div>
