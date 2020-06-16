@@ -1,5 +1,5 @@
 ---
-title: 'Business Sales'
+title: 'Jaringan'
 image: '/services/default.png'
 ---
 

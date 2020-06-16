@@ -1,5 +1,5 @@
 ---
-title: 'Tax Preperation'
+title: 'Kecerdasan Buatan'
 image: '/services/noun_1013177.png'
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Mergers"
+title: "DevOps"
 image: "/services/default.png"
 ---
 

@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
-    "image": "images/features/noun_branding_1885335.svg"
-  },
-  {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Pengujian penetrasi keamanan sistem",
+    "description": "Kami menyediakan jasa uji penetrasi untuk aplikasi Anda baik yang berbasis web ataupun ponsel serta infrastruktur Anda (termasuk jaringan dan server).",
     "image": "images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Pembuatan aplikasi",
+    "description": "Kami menyediakan jasa pembuatan aplikasi, baik yang berbasis web, ponsel, dan desktop yang dapat disesuaikan dengan kebutuhan Anda.",
     "image": "images/features/noun_3d modeling_1885342.svg"
+  },
+  {
+    "title": "Menghubungkan talenta",
+    "description": "Kami menyediakan jasa penghubung kepada talenta-talenta dibidang IT untuk perusahaan Anda, sebagian besar merupakan orang-orang yang aktif berdikusi ditempat kami.",
+    "image": "images/features/noun_branding_1885335.svg"
   }
 ]

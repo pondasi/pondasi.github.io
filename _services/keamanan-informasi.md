@@ -1,5 +1,5 @@
 ---
-title: 'Accounting'
+title: 'Keamanan Informasi'
 image: '/services/noun_591323.png'
 ---
 
