@@ -42,8 +42,7 @@ bodyClass: page-team-list
       <div class="testimonials testimonials-summary">
         <div class="testimonials-meta">
           <h2 class="testimonials-title">{{ service.title }}</h2>
-          <p class="testimonials-name">{{ service.title }}</p>
-          <p class="testimonials-jobtitle">{{ service.title }}</p>
+          <p class="testimonials-name">{{ service.subtitle }}</p>
         </div>
         <div class="testimonials-content">{{ service.content | markdownify | strip_html | truncate: 500 }}</div>
       </div>
