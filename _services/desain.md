@@ -1,7 +1,7 @@
 ---
 title: '# Desain - Coming Soon #'
 image: '/services/default.png'
-subtitle: 'UI / UX / Web Design / Animasi'
+subtitle: 'UI - UX - Web Design - Animasi'
 ---
 
 Lorem markdownum, dictis umbrosum dextrum, Lelegeia quamquam distantes pares

@@ -1,6 +1,7 @@
 ---
 title: "Pemrograman"
 image: "/services/default.png"
+subtitle: 'Struktural - Prosedural - Berorientasi Objek'
 ---
 
 Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum

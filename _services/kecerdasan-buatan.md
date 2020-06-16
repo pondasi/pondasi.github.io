@@ -1,6 +1,7 @@
 ---
 title: 'Kecerdasan Buatan'
 image: '/services/noun_1013177.png'
+subtitle: 'Robotika - Perangkata lunak kecerdasan buatan'
 ---
 
 Lorem markdownum **Achaica revolutaque amore**, penitus puppes nec furit,

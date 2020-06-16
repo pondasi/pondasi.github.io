@@ -1,7 +1,7 @@
 ---
 title: "DevOps"
 image: "/services/default.png"
-subtitle: 'Pengembangan Infrastuktur, CI/CD, Otomasi'
+subtitle: 'Pengembangan Infrastuktur - CI/CD - Otomasi'
 ---
 
 Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum

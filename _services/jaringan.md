@@ -1,6 +1,7 @@
 ---
 title: 'Jaringan'
 image: '/services/default.png'
+subtitle: 'Subnetting - IP Tables - Big IP - Perlengkapan jaringan'
 ---
 
 Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
