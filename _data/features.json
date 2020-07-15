@@ -1,4 +1,9 @@
 [
+  }
+    "title": "Pelatihan IT untuk perusahaan",	
+    "description": "Kami menyediakan jasa pelatihan IT untuk perusahaan Anda.",	
+    "image": "images/features/pentest.svg"	
+  },
   {
     "title": "Pembuatan aplikasi",
     "description": "Kami menyediakan jasa pembuatan aplikasi, baik yang berbasis web, ponsel, dan desktop yang dapat disesuaikan dengan kebutuhan Anda.",
