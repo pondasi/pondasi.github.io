@@ -1,8 +1,8 @@
 [
-  }
-    "title": "Pelatihan IT untuk perusahaan",	
-    "description": "Kami menyediakan jasa pelatihan IT untuk perusahaan Anda.",	
-    "image": "images/features/pentest.svg"	
+  {
+    "title": "Pelatihan IT untuk perusahaan",
+    "description": "Kami menyediakan jasa pelatihan IT untuk perusahaan Anda.",
+    "image": "images/features/pentest.svg"
   },
   {
     "title": "Pembuatan aplikasi",
